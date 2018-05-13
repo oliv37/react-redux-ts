@@ -1,0 +1,35 @@
+body {
+    font-family: 'Raleway';
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    height: 6em;
+    align-items: center;
+    text-align: center;
+}
+
+header > * {
+    width: 50%;
+}
+
+header > *:nth-child(2) {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px; 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+main > p {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #008ece;
+    color: white;
+    border-radius: 5px;
+}
